@@ -1,0 +1,29 @@
+.menu-hamburger {
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #66ffa6;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+  .menu-hamburger span {
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    background-color: #66ffa6;
+    height: 4px;
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .menu-hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+
+  q::before {
+    content: "«";
+    color: blue;
+  }
+  q::after {
+    content: "»";
+    color: red;
+  }
