@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkorchid;
+    color: #f1a9dc;
+    text-align: center;
+
+
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.menuhorizontal{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 20 px;
+}
+
+/*definições gerais do menu*/
+.menuhorizontal ul{
+    list-style: none;
+}
+
+/*retirar o estilo das listas*/
+.menuhorizontal li{
+    display: inline;
+    float: right;
+    padding:0px;
+    margin: 0;
+    width: 100px;
+    border: #ffffff thin solid;
+    text-align: center;
+}
+
+
+/*formatar a lista. Definir o tamanho do botão, o seu posicionamento e display: inline por ser um menu horzontal*/
+.menuhorizontal a{
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #f113a7;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* formatação da âncora e área clicável*/
+.menuhorizontal :hover{
+    background-color: #ee93d3;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menuhorizontal2{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 50px;
+}
+
+.menuhorizontal2 ul{
+    list-style: none;
+}
+
+.menuhorizontal2 li{
+    width: 100px;
+    height: auto;
+    padding:0px;
+    margin: 0;
+    position: relative;
+    display: inline;
+    float: left;
+    border: #ffffff thin solid;
+    text-align: center;
+}
+
+.menuhorizontal2 li ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+    
+    /*nível inferior do menu com display: none*/
+    
+.menuhorizontal2 a{
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+    background-color: #f113a7;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+    
+    /* formatação da âncora e área clicável*/
+    
+.menuhorizontal2 li:hover ul, li.over ul{
+    display: block;
+}
+    
