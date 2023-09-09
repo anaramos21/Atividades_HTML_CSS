@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body { 
+    background-image:url("fundo.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.video{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+
+.musica{
+    margin-top: 40px;
+    margin-left: 680px;
+    margin-right: 600px;
+    border-radius: 50%;
+    height: 30px;
+
+
+
+}
