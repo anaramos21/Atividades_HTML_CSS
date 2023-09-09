@@ -1,0 +1,26 @@
+.login-page
+{
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    bottom: 0;
+    color: rgb(248, 244, 244);
+    font-size: 20px;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+
+}
+
+.login-page .form-group
+{
+    padding: 8px 0;
+}
+.login-page .form-content
+{
+    padding: 40px 0;
+}

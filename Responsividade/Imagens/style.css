@@ -1,0 +1,69 @@
+
+.um{
+    background:black;
+}
+
+.dois{
+    background:rgb(240, 22, 192);
+}
+
+.tres{
+    background:rgb(15, 212, 48);
+}
+
+.quatro{
+    background:rgb(161, 197, 29);
+}
+
+.cinco{
+    background:rgb(64, 18, 231);
+}
+
+.seis{
+    background:rgb(6, 215, 223);
+}
+
+/*Sem responsividade*/
+
+/*.container {  
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
+}*/
+/*Responsividade básica com a unidade de fracionamento*/
+/*
+.container {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px; 
+}*/
+
+/*Responsividade Avançada - Repeat()*/
+/*.container {  
+    display: grid;  
+    grid-template-columns: repeat(3, 100px);  
+    grid-template-rows: repeat(2, 50px);  
+}*/
+
+/*Responsividade Avançada - auto-fit*/
+/*.container {  
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);  
+}*/
+
+/*Responsividade  Avançada - Minmax()*/
+.container {  
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);  
+}
+
+/*Rsponsividade nas imagens adicionadas*/
+img {  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+}
